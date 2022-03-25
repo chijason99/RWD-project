@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="tomato.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/layout.css">
-    <title>Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>六角西餐廳--登入</title>
 </head>
 <body>
     <div class="wrap">
         <header>
             <nav class="bar">
-                <h1><a href="#" title="六角西餐廳">六角西餐廳</a></h1>
+                <h1><a href="#" title="六角西餐廳">六角的登入</a></h1>
                 <a href="#" class="menu-button"><i class="fa-solid fa-bars fa-xl"></i></a>
                 <ul class="menu">
-                    <li><a href="#">特色</a></li>
-                    <li><a href="#">主廚</a></li>
+                    <li><a href="index.html">特色</a></li>
+                    <li><a href="cart.html">主廚</a></li>
                     <li><a href="#">地圖</a></li>
                 </ul>
             </nav>
@@ -35,8 +35,26 @@
             </section>
         </header>
 
-        <section class="content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, adipisci? Ipsam porro ut adipisci amet quas corporis! Dignissimos laboriosam, voluptatem esse soluta nemo consectetur provident. Possimus illum deserunt itaque voluptates, blanditiis autem sapiente earum quis quia est iure eos. Voluptate, libero tenetur illo dolor unde repudiandae officia repellat fuga illum! Mollitia nisi eius itaque magnam natus sapiente nihil possimus nostrum reprehenderit debitis reiciendis facere totam, porro odio nulla repudiandae deserunt temporibus odit ipsum quibusdam esse aut provident. Qui fuga, ipsa dolor laborum quos nisi voluptatem reprehenderit reiciendis sed harum voluptas iure corrupti molestias odit dolores consequuntur totam quae ut, illo omnis corporis. Harum aperiam vel unde quisquam dicta recusandae quia odio rem possimus iusto error quod omnis magnam ratione dolores voluptatum itaque, architecto repellendus iste, dolorum eum dolorem cum, eius commodi. Ipsa doloribus fugit similique itaque eius molestias aut exercitationem harum beatae facere, accusantium officia quis? Quasi provident delectus, veritatis voluptatibus excepturi, temporibus ut expedita nemo exercitationem officiis asperiores iste voluptates sint laboriosam porro distinctio? Sequi quibusdam, dicta placeat totam, pariatur nam fugiat non voluptatem et natus ut alias debitis autem unde. Quas et molestias deserunt aut accusamus. Expedita dolorum temporibus quod quos quis illum quasi voluptates velit et. Iste!
+        <section class="login-content">
+            <h2>六角西餐廳<br><span>享受美食好味道</span></h2>
+            <form action="" class="login-form pure-form">
+                <fieldset>
+                    <legend>LOGIN</legend>
+                    <label for="login-email">Email address*</label>
+                    <div class="login-form-container">
+                        <i class="fa-regular fa-envelope icon"></i>
+                        <input type="email" name="login-email" id="login-email" placeholder="test@email.com">
+                    </div>
+                    <label for="login-pw">Password</label>
+                    <div class="login-form-container">
+                        <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" name="login-pw" id="login-pw" placeholder="Enter your password">
+                    </div>
+                    <a href="#">忘記密碼?</a>
+                    <input class="login-form-btn reg-btn" type="button" value="註冊">
+                    <input class="login-form-btn login-btn" type="submit" value="登入">
+                </fieldset>
+            </form>
         </section>
         <footer>
             <div class="about">
